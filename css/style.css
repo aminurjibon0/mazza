@@ -130,9 +130,6 @@ ul li {
 .plan-title {
     margin-bottom: 40px;
 }
-.plan-single {
-    /* position: relative; */
-}
 .plan-single img {
     width: 100%;
     height: 273px;
@@ -218,7 +215,6 @@ ul li {
     right: 0;
     top: 0;
     z-index: -9;
-
 }
 
 .exercise-title h2 {
@@ -337,7 +333,71 @@ ul li {
     font-size: 50px;
     letter-spacing: -2px;
 }
+.we-icon-2 {
+    max-width: 340px;
+}
 /* we end */
+/* contact start */
+.contact-title {
+    margin-bottom: 30px;
+}
+.contact-content {
+    background: rgba(69, 72, 71, .10);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+    padding: 50px 40px;
+    margin-bottom: 40px;
+}
+form {
+    padding: 40px;
+    background: #1D1D1D;
+    border-radius: 10px;
+}
+input, select, textarea {
+    background: rgba(255, 255, 255, .50) !important;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, .70)  !important;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, .70)  !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, .70)  !important;
+}
+
+label {
+    color: rgba(255, 255, 255, .50);
+}
+button[type=submit] {
+    background: var(--cs-color);
+    padding: 12px 30px;
+}
+select {
+    background: #212121 !important;
+    background: #E8F0FE !important;
+    color: #212529  !important;
+}
+select option {
+    color: #212529  !important;
+}
+.contact-desc {
+    padding-top: 60px;
+}
+.contact-desc i {
+    font-size: 28px;
+    color: rgba(255, 255, 255, .70)  !important;
+}
+.contact-desc a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .70);
+}
+.contact-desc .row {
+    margin-bottom: 40px;
+}
+/* contact end */
 /* footer start */
 #footer {
     font-family: var(--font-secondary);
@@ -348,10 +408,6 @@ ul li {
     font-size: 18px;
     letter-spacing: 0;
     margin-bottom: 30px;
-}
-.footer-2 ul li,
-.footer-3 ul li {
-
 }
 .footer-2 ul li a,
 .footer-3 ul li a {
@@ -389,16 +445,122 @@ ul li {
     font-size: 20px;
 }
 .copyright p {
-    font-size: 14px;
-    display: flex;
-    align-items: flex-end;
+    font-size: 13px;
+    margin-top: 10px;
 }
-.copyright img {
-    max-width: 150px;
-    margin-right: 30px;
+.copyright .copyright-img-1 {
+    max-width: 100px;
+    margin-right: 20px;
+}
+.copyright .copyright-img-2 {
+    margin-left: 20px;
+    max-width: 100px;
 }
 .copyright-row {
     border-top: 1px solid rgba(255, 255, 255, .30);
     margin-top: 30px;
 }
 /* footer end */
+
+@media (max-width: 767.99px) {
+    h1 {
+        font-size: 80px;
+    }
+    h3 {
+        font-size: 34px;
+    }
+    h4 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .hero-content h1 {
+        line-height: 70px;
+        margin-bottom: 26px;
+    }
+    .btn-cs {
+        padding: 14px 25px;
+    }
+    .btn-cs-secondary {
+        padding: 14px 25px;
+    }
+    .hero-links {
+        text-align: center;
+    }
+    .hero-content .btn-cs {
+        margin-right: 10px;
+    }
+    #plan {
+        padding: 30px 15px;
+    }
+    .plan-single {
+        margin-bottom: 40px;
+    }
+    .plan-single ul {
+        min-height: auto;
+    }
+    .exercise-title h2 {
+        font-size: 62px;
+        line-height: 62px;
+    }
+    #exercise {
+        padding: 30px 15px;
+    }
+    .title-underline {
+        position: relative;
+        z-index: -9;
+        margin-top: -80px;
+    }
+    .exercise-2 {
+        margin-top: 30px;
+    }
+    .exercise-3 {
+        margin-top: 30px;
+    }
+    .equip-content {
+        margin-bottom: 30px;
+        padding: 20px 15px 40px;
+    }
+    .equip-content h2 {
+        font-size: 52px;
+        line-height: 58px;
+        letter-spacing: -2px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+    .equip-img {
+        width: 100%;
+        max-width: 240px;
+    }
+    #we {
+        margin-bottom: 40px;
+    }
+    .we-content {
+        padding: 15px;
+    }
+    .we-title img {
+        max-width: 270px;
+    }
+    .we-content h2 {
+        font-size: 62px;
+    }
+    .we-icon-2 {
+        max-width: 260px;
+    }
+    .contact-content {
+        padding: 30px 15px;
+    }
+    form {
+        padding: 15px;
+    }
+    #footer {
+        padding: 30px 15px;
+    }
+    .footer-logo {
+        max-width: 150px;
+        margin-bottom: 40px;
+    }
+    #footer h5 {
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+}
