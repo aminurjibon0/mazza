@@ -103,7 +103,7 @@ ul li {
     padding: 8px 25px 8px 8px;
     display: inline-block;
 }
-.hero-top span {
+.hero-top .hero-discount {
     font-size: 18px;
     font-weight: 600;
     padding: 4px 6px;
@@ -464,24 +464,37 @@ select option {
 
 @media (max-width: 767.99px) {
     h1 {
-        font-size: 80px;
+        font-size: 60px;
     }
     h3 {
-        font-size: 34px;
+        font-size: 28px;
     }
     h4 {
-        font-size: 28px;
+        font-size: 24px;
         margin-bottom: 15px;
+    }
+    .hero-top {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .hero-top {
+        font-size: 12px;
+    }
+    .hero-discount {
+        font-size: 16px;
+        display: block;
     }
     .hero-content h1 {
         line-height: 70px;
         margin-bottom: 26px;
     }
     .btn-cs {
-        padding: 14px 25px;
+        font-size: 16px;
+        padding: 14px 18px;
     }
     .btn-cs-secondary {
-        padding: 14px 25px;
+        font-size: 16px;
+        padding: 14px 18px;
     }
     .hero-links {
         text-align: center;
@@ -499,8 +512,9 @@ select option {
         min-height: auto;
     }
     .exercise-title h2 {
-        font-size: 62px;
-        line-height: 62px;
+        font-size: 52px;
+        line-height: 52px;
+        max-width: 270px;
     }
     #exercise {
         padding: 30px 15px;
@@ -521,11 +535,12 @@ select option {
         padding: 20px 15px 40px;
     }
     .equip-content h2 {
-        font-size: 52px;
-        line-height: 58px;
+        font-size: 42px;
+        line-height: 42px;
         letter-spacing: -2px;
         margin-bottom: 30px;
         margin-top: 25px;
+        max-width: 270px;
     }
     .equip-img {
         width: 100%;
