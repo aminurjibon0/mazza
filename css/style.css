@@ -421,6 +421,11 @@ select option {
     color: #fff !important;
     text-decoration: none;
 }
+.footer-2 ul li a:hover,
+.footer-3 ul li a:hover {
+    color: var(--cs-color) !important;
+}
+.footer-2 ul li a
 .footer-4 p {
     color: #fff;
     margin-bottom: 0;
