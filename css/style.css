@@ -210,7 +210,7 @@ ul li {
     content: "";
     background: rgba(69, 72, 71, .10);
     width: 70.78%;
-    height: 665px;
+    height: 712px;
     position: absolute;
     right: 0;
     top: 0;
@@ -462,7 +462,92 @@ select option {
 }
 /* footer end */
 
+
+@media (max-width: 1425px) {
+    h4 {
+        font-size: 24px;
+    }
+    .plan-single ul {
+        min-height: 336px;
+    }
+}
+@media (max-width: 1220px) {
+    .exercise-title h2 {
+        font-size: 68px;
+        line-height: 68px;
+        max-width: 350px;
+    }
+    .title-underline {
+        position: relative;
+        z-index: -9;
+        margin-top: -80px;
+        max-width: 300px;
+    }
+    .equip-content h2 {
+        font-size: 68px;
+        line-height: 68px;
+        letter-spacing: -2px;
+        margin-bottom: 40px;
+    }
+    .exercise-row::before {
+        height: 518px;
+    }
+}
+@media (max-width: 1100px) {
+    h1 {
+        font-size: 140px;
+        line-height: 90px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    .plan-single ul {
+        min-height: auto;
+    }
+    .plan-single {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 1024px) {
+    .exercise-row::before {
+        height: 618px;
+    }
+}
+@media (max-width: 991px) {
+    .exercise-row::before {
+        height: 618px;
+    }
+    .exercise-2 {
+        margin-top: 0;
+        padding-left: 15px;
+    }
+    .equip-content h2 {
+        font-size: 58px;
+        line-height: 58px;
+        letter-spacing: -2px;
+        margin-bottom: 40px;
+    }
+    .footer-logo {
+        max-width: 100px;
+    }
+    .copyright p {
+        line-height: 18px;
+    }
+    .we-content img {
+        max-width: 200px;
+    }
+}
 @media (max-width: 767.99px) {
+    #hero {
+        padding: 40px 0;
+    }
+    #training {
+        padding: 40px 0;
+    }
+    .plan-single:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
     h1 {
         font-size: 60px;
     }
@@ -477,13 +562,16 @@ select option {
         margin-bottom: 10px;
         width: 100%;
     }
-    .hero-top {
+    .hero-top p {
+        font-size: 10px;
+        padding: 6px 8px;
+        margin-bottom: 0;
+    }
+    .hero-top .hero-discount {
         font-size: 12px;
+        margin-right: 2px;
     }
-    .hero-discount {
-        font-size: 16px;
-        display: block;
-    }
+    
     .hero-content h1 {
         line-height: 70px;
         margin-bottom: 26px;
@@ -523,12 +611,26 @@ select option {
         position: relative;
         z-index: -9;
         margin-top: -80px;
+        max-width: 260px;
+    }
+    .exercise-title p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .exercise-pt {
+        padding-top: 40px;
     }
     .exercise-2 {
         margin-top: 30px;
+        padding-left: 0;
     }
     .exercise-3 {
         margin-top: 30px;
+    }
+    .exercise-3 h4,
+    .exercise-1 h4,
+    .exercise-2 h4 {
+        font-size: 24px;
     }
     .equip-content {
         margin-bottom: 30px;
@@ -541,6 +643,14 @@ select option {
         margin-bottom: 30px;
         margin-top: 25px;
         max-width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-desc i {
+        font-size: 18px;
+    }
+    .contact-desc a {
+        font-size: 14px;
     }
     .equip-img {
         width: 100%;
@@ -551,6 +661,9 @@ select option {
     }
     .we-content {
         padding: 15px;
+    }
+    .we-content img {
+        max-width: 150px;
     }
     .we-title img {
         max-width: 270px;
