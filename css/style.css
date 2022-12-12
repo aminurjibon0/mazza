@@ -130,12 +130,6 @@ ul li {
 .plan-title {
     margin-bottom: 40px;
 }
-.plan-single img {
-    width: 100%;
-    height: 273px;
-    object-fit: cover;
-    z-index: -9;
-}
 .plan-img,
 .training-img {
     position: relative;
@@ -170,9 +164,6 @@ ul li {
 .training-title .btn-cs,
 .plan-title .btn-cs {
     padding: 11px 25px;
-}
-.training-img {
-    height: 300px;
 }
 .training-desc {
     position: relative;
@@ -465,6 +456,13 @@ select option {
     border-top: 1px solid rgba(255, 255, 255, .30);
     margin-top: 30px;
 }
+.copyright-desktop {
+    display: block;
+}
+.copyright-mobile {
+    padding-top: 15px;
+    display: none;
+}
 /* footer end */
 
 
@@ -536,7 +534,7 @@ select option {
         max-width: 100px;
     }
     .copyright p {
-        line-height: 18px;
+        line-height: 22px;
     }
     .we-content img {
         max-width: 200px;
@@ -695,5 +693,11 @@ select option {
     #footer h5 {
         margin-bottom: 15px;
         margin-top: 20px;
+    }
+    .copyright-desktop {
+        display: none;
+    }
+    .copyright-mobile {
+        display: block;
     }
 }
