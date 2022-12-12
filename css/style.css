@@ -73,7 +73,7 @@ ul li {
 
 /* header start */
 #header {
-
+    background: #1D1D1D;
 }
 .navbar-brand img {
     max-width: 200px;
@@ -91,7 +91,7 @@ ul li {
 /* header end */
 /* hero start */
 #hero {
-    padding: 100px 0 70px;
+    padding: 180px 0 70px;
 }
 .hero-top {
     margin-bottom: 20px;
@@ -201,7 +201,7 @@ ul li {
     content: "";
     background: rgba(69, 72, 71, .10);
     width: 70.78%;
-    height: 712px;
+    height: 722px;
     position: absolute;
     right: 0;
     top: 0;
@@ -226,20 +226,18 @@ ul li {
 }
 .exercise-1 img,
 .exercise-2 img {
-    width: 100%;
-    height: 300px;
+    height: 380px;
     object-fit: cover;
 }
 .exercise-2 {
-    margin-top: 300px;
+    margin-top: 380px;
 }
 .exercise-3 img {
-    height: 400px;
-    width: 100%;
+    height: 490px;
     object-fit: cover;
 }
 .exercise-pt {
-    padding-top: 100px;
+    padding-top: 110px;
 }
 .exercise-desc {
     padding: 10px;
