@@ -631,7 +631,7 @@ select option {
     }
     .equip-content {
         margin-bottom: 30px;
-        padding: 20px 15px 40px;
+        padding: 20px 15px 0px;
     }
     .equip-content h2 {
         font-size: 42px;
@@ -652,6 +652,7 @@ select option {
     .equip-img {
         width: 100%;
         max-width: 240px;
+        margin-top: 40px;
     }
     #we {
         margin-bottom: 40px;
