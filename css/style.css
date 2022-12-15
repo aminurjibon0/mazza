@@ -135,6 +135,7 @@ ul li {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
+    transition: .4s;
 }
 .plan-single .plan-img::before {
     content: "";
@@ -188,6 +189,49 @@ ul li {
     left: 0;
     bottom: 0;
     top: 0;
+    transition: .5s;
+}
+
+.training-img-overlay {
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7));
+    transition: .5s;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: .1;
+}
+.training-img:hover .training-img-overlay  {
+    display: flex;
+    opacity: 1;
+    transition: .4s;
+    width: 100%;
+    height: 100%;
+}
+.training-img-overlay h4 {
+    font-size: 26px;
+    letter-spacing: normal;
+    font-weight: 800;
+    margin-bottom: 0;
+    line-height: 1.01;
+}
+.training-img-overlay .btn-cs {
+    font-size: 16px;
+    padding: 12px 25px !important;
+}
+.training-img-overlay p {
+    color: #fff;
+}
+.training-single:hover .training-desc {
+    opacity: .8;
 }
 /* training end */
 /* exercise start */
