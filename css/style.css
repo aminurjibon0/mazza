@@ -73,6 +73,8 @@ ul li {
 
 /* header start */
 #header {
+    width: 100%;
+    overflow-x: hidden;
     background: #1D1D1D;
 }
 .navbar-brand img {
