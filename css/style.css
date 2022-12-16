@@ -6,7 +6,17 @@
     --font-primary: 'Poppins', sans-serif;
     --font-secondary: 'Montserrat', sans-serif;
 }
-
+#header,
+#hero,
+#plan,
+#training,
+#exercise,
+#equip,
+#we,
+#contact,
+#footer {
+    overflow-x: hidden !important;
+}
 
 * {
     padding: 0;
@@ -75,6 +85,9 @@ ul li {
 #header {
     width: 100%;
     overflow-x: hidden;
+    background: #1D1D1D;
+}
+.navbar {
     background: #1D1D1D;
 }
 .navbar-brand img {
@@ -586,7 +599,7 @@ select option {
 }
 @media (max-width: 767.99px) {
     #hero {
-        padding: 40px 0;
+        padding: 120px 0 40px;
     }
     #training {
         padding: 0 0 40px;
