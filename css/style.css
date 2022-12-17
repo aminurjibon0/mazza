@@ -16,6 +16,7 @@
 #contact,
 #footer {
     overflow-x: hidden !important;
+    overflow-y: hidden;
 }
 
 * {
@@ -385,6 +386,41 @@ ul li {
     max-width: 340px;
 }
 /* we end */
+/* faq start */
+.faq-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.faq-title img {
+    max-width: 200px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    right: 0;
+    margin: 0 auto;
+    transform: scaleX(-1) scaleY(-1);
+    z-index: -9;
+}
+.faq-content {
+    background: rgba(69, 72, 71, .10);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+    padding: 50px 40px;
+    margin-bottom: 40px;
+}
+.faq-content .accordion-item {
+    background: var(--cs-color);
+}
+.faq-content .accordion-header,
+.faq-content .accordion-button {
+    letter-spacing: normal;
+    background: none;
+    color: #fff;
+}
+.faq-content .accordion-body p {
+    color: rgba(255, 255, 255, 0.938);
+}
+/* faq end */
 /* contact start */
 .contact-title {
     margin-bottom: 30px;
@@ -716,8 +752,12 @@ select option {
     #we {
         margin-bottom: 40px;
     }
-    .we-content {
+    .we-content,
+    .faq-content {
         padding: 15px;
+    }
+    .faq-content .accordion-header, .faq-content .accordion-button {
+        font-size: 16px;
     }
     .we-content img {
         max-width: 150px;
