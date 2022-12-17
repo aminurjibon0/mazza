@@ -431,13 +431,20 @@ ul li {
     padding: 50px 40px;
     margin-bottom: 40px;
 }
+.contact-content a:hover {
+    color: var(--cs-color);
+}
 form {
     padding: 40px;
     background: #1D1D1D;
     border-radius: 10px;
 }
 input, select, textarea {
-    background: rgba(255, 255, 255, .50) !important;
+    background: #212121 !important;
+    color: rgba(255, 255, 255, .70)  !important;
+}
+textarea {
+    color: #c4c4c4 !important
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(255, 255, 255, .70)  !important;
@@ -451,7 +458,9 @@ input, select, textarea {
 ::-ms-input-placeholder { /* Microsoft Edge */
     color: rgba(255, 255, 255, .70)  !important;
 }
-
+input#name.form-control {
+    background: #212121 !important;
+}
 label {
     color: rgba(255, 255, 255, .50);
 }
@@ -461,11 +470,11 @@ button[type=submit] {
 }
 select {
     background: #212121 !important;
-    background: #E8F0FE !important;
-    color: #212529  !important;
+    color: #c4c4c4  !important;
 }
 select option {
-    color: #212529  !important;
+    color: #c4c4c4  !important;
+    background: #212121;
 }
 .contact-desc {
     padding-top: 60px;
@@ -529,6 +538,10 @@ select option {
     text-align: center;
     line-height: 2.5;
     margin: 0 0px !important;
+    transition: .3s;
+}
+.social-list li:hover {
+    background: var(--cs-color-hover);
 }
 .social-list li a i {
     font-size: 20px;
