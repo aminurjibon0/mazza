@@ -467,22 +467,22 @@ textarea {
     color: #c4c4c4 !important
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgba(255, 255, 255, .70)  !important;
+    color: rgba(255, 255, 255, .40)  !important;
     opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: rgba(255, 255, 255, .70)  !important;
+    color: rgba(255, 255, 255, .40)  !important;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-    color: rgba(255, 255, 255, .70)  !important;
+    color: rgba(255, 255, 255, .40)  !important;
 }
 input#name.form-control {
     background: #212121 !important;
 }
 label {
-    color: rgba(255, 255, 255, .50);
+    color: rgba(255, 255, 255, .80);
 }
 button[type=submit] {
     background: var(--cs-color);
@@ -613,6 +613,13 @@ select option {
     margin: 40px 0 20px;
     max-width: 700px;
     line-height: 1.5;
+}
+.form-check-input:checked {
+    background: rgba(255, 255, 255, .80) !important;
+    border: rgba(255, 255, 255, .80);
+}
+.form-check-input:focus {
+    box-shadow: 0 0 6px #fff;
 }
 /* ============= Inner Pages =========== */
 
@@ -852,5 +859,24 @@ select option {
     }
     .copyright-mobile {
         display: block;
+    }
+
+
+    /* inner Pages */
+    .inner-hero-content {
+        min-height: 150px;
+    }
+    .inner-hero-content h2 {
+        font-size: 22px;
+    }
+    .consult-content {
+        padding: 20px 15px;
+        margin-top: 30px;
+    }
+    .consult-content .form-check-inline {
+        display: block;
+    }
+    .consult-content h5 {
+        font-size: 18px;
     }
 }
