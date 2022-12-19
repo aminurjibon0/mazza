@@ -621,6 +621,39 @@ select option {
 .form-check-input:focus {
     box-shadow: 0 0 6px #fff;
 }
+#what {
+    padding: 70px 0;
+}
+.what-logo {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.what-content {
+
+}
+.history-link {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    font-style: italic;
+    margin: 20px 0;
+    display: inline-block;
+}
+.history-content {
+    padding-bottom: 60px;
+}
+.history-last-heading {
+    margin-top: 30px;
+}
+.history-content h2,
+.what-inner h2 {
+    font-size: 38px;
+    margin-top: 30px;
+}
+.history-content h3 {
+    font-size: 28px;
+    letter-spacing: normal;
+}
 /* ============= Inner Pages =========== */
 
 
@@ -879,4 +912,13 @@ select option {
     .consult-content h5 {
         font-size: 18px;
     }
+    .history-content h2,
+.what-inner h2 {
+    font-size: 28px;
+    margin-top: 30px;
+}
+.history-content h3 {
+    font-size: 20px;
+    letter-spacing: normal;
+}
 }
